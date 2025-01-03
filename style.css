@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background: #1d3557;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #hero {
+    background: #457b9d;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  #about {
+    padding: 2rem;
+    margin-top: 40px;
+    background: #f1faee;
+    text-align: center;
+  }
+  
+  #about h2 {
+    color: #1d3557;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-text {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+ 
+  @media (min-width: 768px) {
+    .about-content {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .about-text {
+      max-width: 50%;
+      font-size: 1.2rem;
+    }
+  
+    .about-image img {
+      margin-left: 2rem;
+    }
+  }
+  
+
+  #plans {
+    padding: 3rem 1rem;
+    background: #f1faee;
+    text-align: center;
+  }
+  
+  #plans h2 {
+    color: #1d3557;
+    margin-bottom: 2rem;
+  }
+  
+  .plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Flexible grid with card-style layout */
+    gap: 2rem;
+  }
+  
+  .plan {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plan h3 {
+    color: #1d3557;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .plan p {
+    margin-bottom: 1rem;
+  }
+  
+  .plan strong {
+    color: #457b9d;
+    font-size: 1.1rem;
+  }
+  
+  #contact {
+    padding: 2rem;
+    background: #f1faee;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  #contact h2 {
+    color: #1d3557;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  #contact p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #1d3557;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .submit-btn:hover {
+    background-color: #457b9d;
+  }
+
+  #testimonials {
+    padding: 2rem;
+    background: #f1faee;
+    text-align: center;
+  }
+  
+  #testimonials h2 {
+    color: #1d3557;
+    margin-bottom: 1.5rem;
+  }
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .testimonial {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial h4 {
+    color: #1d3557;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .testimonial p:last-child {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+
+  footer {
+    background: #eaecee;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
